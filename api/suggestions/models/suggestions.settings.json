@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "suggestions",
+  "info": {
+    "name": "Suggestions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "article": {
+      "model": "article"
+    },
+    "category": {
+      "model": "category"
+    },
+    "slug": {
+      "type": "uid"
+    }
+  }
+}
